@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Burger
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Burger\ here.\r\n\ @author\ (your\ name)\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ Burger\ wants\ to\ do.\ This\ method\ is\ called\ whenever\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment2.params=
+comment2.target=void\ moveAndTurn()
+comment2.text=\r\n\ \r\n
+comment3.params=
+comment3.target=boolean\ isGameWon()
+comment3.text=\r\n\ when\ the\ list\ of\ worm\ objects\ in\ the\ world\ is\ emoty,\ we\ win\ the\ game\!\r\n
+comment4.params=
+comment4.target=void\ trasitionToGameWonWorld()
+comment4.text=\r\n\ make\ the\ current\ world,\ the\ GameWonWorld\r\n
+numComments=5

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class name="GameWonWorld" extends="World" extends-java="World" enable="true" strideversion="1">
+    <javadoc xml:space="preserve">Write a description of class GameWonWorld here.
+@author (your name) @version (a version number or a date)</javadoc>
+    <imports>
+        <import target="greenfoot.*" enable="true"/>
+    </imports>
+    <implements/>
+    <fields/>
+    <constructors>
+        <comment xml:space="preserve">(World, Actor, GreenfootImage, Greenfoot and MouseInfo)</comment>
+        <constructor access="public" enable="true">
+            <javadoc xml:space="preserve">Constructor for objects of class GameWonWorld.</javadoc>
+            <params/>
+            <throws/>
+            <delegate target="super" params="600,400,1" params-java="600, 400, 1"/>
+            <body>
+                <comment xml:space="preserve">Create a new world with 600x400 cells with a cell size of 1x1 pixels.</comment>
+                <call expression="showText(&quot;winner&quot;,260,260)" expression-java="showText(&quot;winner&quot;, 260, 260)" enable="true"/>
+            </body>
+        </constructor>
+    </constructors>
+    <methods>
+        <method access="public" type="void" type-java="void" name="showTextWithBigBlackFont" enable="true">
+            <javadoc xml:space="preserve"/>
+            <params>
+                <params type="String" type-java="String" name="messge"/>
+                <params type="int" type-java="int" name="x"/>
+                <params type="int" type-java="int" name="y"/>
+            </params>
+            <throws/>
+            <body>
+                <variable type="GreenfootImage" type-java="GreenfootImage" name="bg" value="getBackground()" value-java="getBackground()" enable="true"/>
+                <variable type="Font" type-java="Font" name="font" value="new Font(50)" value-java=" new Font(50)" enable="true"/>
+                <call expression="bg.setFont(font)" expression-java="bg.setFont(font)" enable="true"/>
+                <call expression="bg.setColor(Color.BLUE)" expression-java="bg.setColor(Color.BLUE)" enable="true"/>
+                <call expression="bg.drawString(messge,x,y)" expression-java="bg.drawString(messge, x, y)" enable="true"/>
+                <call expression="showTextWithBigBlackFont(&quot;winner&quot;,180,200)" expression-java="showTextWithBigBlackFont(&quot;winner&quot;, 180, 200)" enable="true"/>
+            </body>
+        </method>
+    </methods>
+</class>
